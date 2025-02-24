@@ -1,12 +1,17 @@
 
 import './App.css'
-import First from './exp/first'
+import First from './exp/first/'
+import Sec from './exp/sec'
+import Thir from './exp/Thir'
+
 
 function App() {
 
   return (
     <>
-      <First/>
+ {/* <div><First/></div> */}
+     {/* <div> <Sec/></div> */}
+     <Thir/>
     </>
   )
 }
