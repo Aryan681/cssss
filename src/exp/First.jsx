@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 const First = () => {
   const navRef = useRef(null);
   const rectRef = useRef(null);
-  const cont = useRef([]);
+  
 
   useEffect(() => {
     const tl =  gsap.timeline();
